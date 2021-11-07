@@ -750,6 +750,7 @@ object-fit: cover; border-radius: 20px
 				position: absolute;
 				bottom: 0;
 				z-index: 1;
+				
 			}
 
 			.snip1529 .date {
@@ -780,11 +781,23 @@ object-fit: cover; border-radius: 20px
 			.snip1529 p {
 				margin: 0;
 				padding: 0;
+				
 			}
 
 			.snip1529 h3 {
 				font-weight: 800;
 				letter-spacing: -0.4px;
+/*				color: rgba(194,240,202,1.00)*/
+			}
+
+			.snip1529 a {
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				position: absolute;
+				z-index: 1;
+				color: #005505
 			}
 
 			.snip1529 .hover {
@@ -799,16 +812,6 @@ object-fit: cover; border-radius: 20px
 				font-size: 65px;
 				justify-content: center;
 				opacity: 0;
-			}
-
-			.snip1529 a {
-				left: 0;
-				right: 0;
-				top: 0;
-				bottom: 0;
-				position: absolute;
-				z-index: 1;
-
 			}
 
 			.snip1529:hover .hover,
